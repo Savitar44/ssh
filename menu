@@ -25,6 +25,6 @@ sleep 2s
 echo -e
 echo -e "\033[1;31mRetornando...\033[0m"
 sleep 2s
-curl -sO https://raw.githubusercontent.com/Savitar44/ssh/main/run.sh && chmod 777 run.sh && ./run.sh
+curl -sO https://raw.githubusercontent.com/Savitar44/ssh/main/menu && chmod 777 menu && ./menu
 
 esac
