@@ -20,4 +20,3 @@ echo -e "\033[42mINICIANDO SERVIDOR SSH...\033[0m"
 sleep 2s
 clear
 ssh -p $port $user@$ip
-y
