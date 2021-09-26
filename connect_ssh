@@ -3,6 +3,27 @@ clear
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "\E[41;1;37m     • CONECTAR SERVIDOR SSH • \E[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e
+echo -e "\033[44mDIGITE SEU IP SSH : \033[0m"
 sleep 2s
-echo -e "\033[44mDIGITE SEU IP SSH\033[0m"
 read ip
+echo -e
+echo -e "\033[44mDIGITE SUA PORTA SSH : \033[0m"
+sleep 2s
+read port
+echo -e
+echo -e "\033[44mDIGITE SEU USUÁRIO SSH : \033[0m"
+sleep 2s
+read user
+echo -e
+echo -e "\033[42mINICIANDO SERVIDOR SSH...\033[0m"
+sleep 2s
+clear
+ssh -p $port $user@$ip
+echo -e
+echo -e "\033[42mPARANDO SERVIDOR...\033[0m"
+sleep 2s
+clear
+echo -e "\033[1;31mRetornando...\033[0m"
+sleep 2s
+curl -sO https://raw.githubusercontent.com/Savitar44/ssh/main/run.sh && chmod 777 run.sh && ./run.sh
