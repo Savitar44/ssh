@@ -4,15 +4,15 @@ echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━�
 echo -e "\E[41;1;37m    • CONECTAR SERVIDOR SSH •            \E[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e
-echo -e "\033[47mDIGITE SEU IP SSH :             \033[0m"
+echo -e "\033[46mDIGITE SEU IP SSH :             \033[0m"
 read ip
 sleep 2s
 echo -e
-echo -e "\033[47mDIGITE SUA PORTA SSH :          \033[0m"
+echo -e "\033[46mDIGITE SUA PORTA SSH :          \033[0m"
 read port
 sleep 2s
 echo -e
-echo -e "\033[47mDIGITE SEU USUÁRIO SSH :        \033[0m"
+echo -e "\033[46mDIGITE SEU USUÁRIO SSH :        \033[0m"
 read user
 sleep 2s
 echo -e
