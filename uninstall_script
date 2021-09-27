@@ -1,0 +1,17 @@
+#!/bin/bash
+clear
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "\E[41;1;37m     • DESINSTALAR SCRIPT • \E[0m"
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e
+echo -e "\E[41;1;37mLIMPANDO ARQUÍVOS...\E[0m"
+sleep 1s
+rm -rf connect_ssh
+echo -e
+echo -e "\E[41;1;37mLIMPANDO CACHÊ...\E[0m"
+sleep 2s
+rm -rf run && rm -rf menu
+clear
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "\E[41;1;37m     • DESINSTALADO COM SUCESSO! • \E[0m"
+echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
