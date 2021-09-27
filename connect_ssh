@@ -15,7 +15,7 @@ echo -e
 echo -e "\033[46mDIGITE SEU USUÁRIO SSH :        \033[0m"
 read user
 sleep 2s
-echo -e
+clear
 echo -e "\033[42mINICIANDO SERVIDOR SSH...\033[0m"
 sleep 2s
 clear
