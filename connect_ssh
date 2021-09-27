@@ -20,3 +20,10 @@ echo -e "\033[42mINICIANDO SERVIDOR SSH...\033[0m"
 sleep 2s
 clear
 ssh -p $port $user@$ip
+echo -e
+echo -e "\033[42mPARANDO SERVIDOR...\033[0m"
+sleep 2s
+clear
+echo -e "\033[1;31mRetornando...\033[0m"
+sleep 2s
+curl -sO https://raw.githubusercontent.com/Savitar44/ssh/main/menu && chmod 777 menu && ./menu
